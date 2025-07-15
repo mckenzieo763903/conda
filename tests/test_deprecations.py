@@ -203,5 +203,4 @@ def test_version_fallback() -> None:
     deprecated = DeprecationHandler(None)  # type: ignore[arg-type]
     assert deprecated._version_less_than("0")
     assert deprecated._version_tuple is None
-    version: Version = deprecated._version_object  # type: ignore[assignment]
-    assert version.major == version.minor == version.micro == 0
+    assert deprecated._version_object is None

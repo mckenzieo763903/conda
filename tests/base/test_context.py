@@ -557,6 +557,11 @@ def test_channel_settings(context_testdata: None):
             "param_one": "value_one",
             "param_two": "value_two",
         },
+        {
+            "channel": "https://repo.anaconda.com",
+            "param_one": "value_one",
+            "param_two": "value_two",
+        },
     )
 
 
