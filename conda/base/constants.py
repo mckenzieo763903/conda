@@ -195,6 +195,8 @@ NOTICES_DECORATOR_DISPLAY_INTERVAL: Final = 86400  # in seconds
 DRY_RUN_PREFIX: Final = "Dry run action:"
 PREFIX_NAME_DISALLOWED_CHARS: Final = {"/", " ", ":", "#"}
 
+OK_MARK: Final = "OK"
+
 
 class SafetyChecks(Enum):
     disabled = "disabled"
